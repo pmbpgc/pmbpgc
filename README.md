@@ -4,7 +4,7 @@
 
 ###
 
-<h2 align="left">Hi! My name is Pawan Mishra and I'm a full stack developer with experience in the MERN Stack, and interest in web3. I am currently learning Rust and Solidity.</h2>
+<h2 align="left">Hi! My name is Pawan Mishra and I'm a full stack developer with experience in the MERN Stack, and interest in web3 and DevOps. I am currently learning Rust and Solidity.</h2>
 
 ###
 
