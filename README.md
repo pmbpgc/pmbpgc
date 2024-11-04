@@ -42,9 +42,9 @@
 ###
 
 <div align="center">
-  <img height="200" src="https://github-readme-stats.vercel.app/api/top-langs/?username=pmbpgc&layout=compact&theme=tokyonight" alt="Top Languages" />
+  <img height="150" src="https://github-readme-stats.vercel.app/api/top-langs/?username=pmbpgc&layout=compact&theme=tokyonight" alt="Top Languages" />
 
-  <img height="200" src="https://github-readme-stats.vercel.app/api?username=pmbpgc&show_icons=true&theme=tokyonight&count_private=true" alt="GitHub Stats" />
+  <img height="150" src="https://github-readme-stats.vercel.app/api?username=pmbpgc&show_icons=true&theme=tokyonight&count_private=true" alt="GitHub Stats" />
 
 </div>
 
