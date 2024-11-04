@@ -1,0 +1,24 @@
+name: Generate Contribution Chart
+
+on:
+  schedule:
+    - cron: '0 0 * * *' # Every day at midnight
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Generate Contribution Chart
+        uses: Platane/snk@master
+        with:
+          github_user_name: pmbpgc
+          output: dist/github-contribution-grid-snake.svg
+      - name: Commit and Push
+        uses: ad-m/github-push-action@master
+        with:
+          branch: output
+          path: dist/github-contribution-grid-snake.svg
+          github_token: ${{ secrets.GITHUB_TOKEN }}
